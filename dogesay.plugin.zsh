@@ -9,7 +9,7 @@ declare -a NODOGE=("CMAKE" "MAKE" "CLEAR" "WOW" "EXIT" "./")
 
 ## doge check what he should not say
 containsElement () {
-	if [[ -n $MUT_DOG ]]; then 
+	if [[ -n $MUTE_DOG ]]; then 
           return 0
         fi
 	return 1
