@@ -21,6 +21,14 @@ Then in .zshrc, enable it by changing the line:
 ```
 plugins=(... dogesay)
 ```
+## Mute dog?
+
+Set environment: `MUTE_DOG=1`
+
+Alias it in your zshrc ?
+```
+alais mute_dog="export MUTE_DOG=1"
+```
 
 ## Pre-Doge:
 
