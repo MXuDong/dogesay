@@ -9,13 +9,9 @@ declare -a NODOGE=("CMAKE" "MAKE" "CLEAR" "WOW" "EXIT" "./")
 
 ## doge check what he should not say
 containsElement () {
-	for i in "${NODOGE[@]}"
-	do
-		if [[ $1 =~ $i ]]
-		then
-			return 0
-		fi
-	done
+	if [[ -n $MUT_DOG ]]; then 
+          return 0
+        fi
 	return 1
 }
 ## disable or enable the use of lolcat here
