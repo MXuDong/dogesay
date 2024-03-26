@@ -53,14 +53,18 @@ declare -a WOWARR=("YOUR" "OWN" "WORDS")
 ```
 
 ## Doge don't say
-On line 8 of the dogesay.plugin.zsh, you can customize a list of commands you do not want doge to say a word about. Once doge detects that the command you input contains a word that you forbid him to say, he will not say.
 
-Simply add the words like this:
+See **Mute Dog?**
+
+~~On line 8 of the dogesay.plugin.zsh, you can customize a list of commands you do not want doge to say a word about. Once doge detects that the command you input contains a word that you forbid him to say, he will not say.~~
+
+~~Simply add the words like this:~~
 
 ```bash
-declare -a NODOGE=("DOGE" "IGNORE" "THOSE" "COMMANDS")
+# It was not support in this repo, if you want, use origin repo please.
+# declare -a NODOGE=("DOGE" "IGNORE" "THOSE" "COMMANDS")
 ```
-REMEMBER TO CAPITALIZE THOSE WORDS OTHERWISE DOGE DOESN'T GIVE A FLYING PAN.
+~~REMEMBER TO CAPITALIZE THOSE WORDS OTHERWISE DOGE DOESN'T GIVE A FLYING PAN._~~
 
 ENJOY!
 
